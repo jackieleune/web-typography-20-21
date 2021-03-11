@@ -81,3 +81,26 @@ Voor een goede onderbouwing van je keuze voor een ander fragment moet je deze vr
 Je kan dan de nodige HTML en JavaScript genereren door gebruik te maken van [caption generator](https://cmda-minor-vid.github.io/web-typography-18-19/generator/) (in Google Chrome). 
 
 Als je de closed captions wil bewerken dan kan je een tool zoals [Amber Script](https://www.amberscript.com/en) gebruiken. Daar kan je exporteren als `.srt`, en die kan je weer door de generator halen.
+
+
+
+### LOGBOEK
+
+Week 1:
+- Files klaargezet. Onderzocht hoe de code in elkaar zit en hoe ik dit zou kunnen aanpassen. 
+- Video voor enkele secondes op het eerste alarm geluid groter kunnen maken.
+- Na deze aanpassing werkte niets meer. Compleet van de kaart en in de war met hoe ik verder kon.
+
+Week 2 - Woensdag 10:
+- Hulp gevraagd aan May.
+- Helemaal overnieuw begonnen zodat ik een duidelijker overzicht heb van wat ik gedaan heb en nog moet doen.
+- Vanaf hier ging het goed. Ik begreep hoe de basics in elkaar zitten.
+- De achtergrondkleur + juiste fonts gekozen.
+- Rode alarm gloed toegevoegd aan de hand van box shadow. Deze bij de kortere alarmen kort gemaakt.
+
+Week 2 - Donderdag 11:
+- Het hele eerste fragment is 'af'.
+- Bij de hoge piep wordt de video met de piep mee groter. Zodra de piep afgelopenn is, snapt de video terug naar het juiste formaat en krijgt het snel een witte onlijning. Dit om de 'relief' aan te geven. 
+- 'Fuck off, skin-job!' licht grijs en dun gemaakt en links onder het beeld neergezet zodat je ziet dat het zacht gezegd wordt. 
+- Geporbeerd de video bij de pitch te laten wiggelen, echter niet gelukt.
+
