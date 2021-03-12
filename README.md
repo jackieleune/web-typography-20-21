@@ -104,3 +104,12 @@ Week 2 - Donderdag 11:
 - 'Fuck off, skin-job!' licht grijs en dun gemaakt en links onder het beeld neergezet zodat je ziet dat het zacht gezegd wordt. 
 - Geporbeerd de video bij de pitch te laten wiggelen, echter niet gelukt.
 
+Week 2 - Vrijdag 12:
+Feedback Darice
+- Ze is er pas net achter gekomen dat het gedeeltje in de gang gefluisterd wordt. Bij mij was dit goed duidelijk. Misschien nog meer overdreven?
+- Stuk met de hoge piep vindt ze het duidelijk dat hij groter wordt en vindt ze de tekst fijn. 
+- Kijken of ik meer met achtergrondkleur kan doen --> Bij het hope piep stuk bijv. 
+Feedback Vasilis
+- Maak het hoge piep stuk irritanter
+- Misschien expirimenteren met het alarm
+
