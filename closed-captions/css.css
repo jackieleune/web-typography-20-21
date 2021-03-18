@@ -1,0 +1,350 @@
+
+body {
+    background-color: black;
+} 
+
+body p {
+    color: white;
+    font-size: 1.4em;
+}
+
+#video-placeholder {
+    margin-left: auto;
+	margin-right: auto;
+	margin-top: 7%;
+	display: block;
+    height: 700px;
+    width: 950px;
+}
+
+#closed-captions {
+    display: flex;
+	justify-content: center;
+}
+
+#audio-captions1 {
+	display: flex;
+	justify-content: center;
+	opacity: 0;
+	margin-top: 50px;
+  }
+  
+  #audio-captions2 {
+	display: flex;
+	justify-content: center;
+	opacity: 0;
+}
+
+/* **********************************************
+Basic mechanics
+Hide all paragraphs by default
+Show them when they receive the class 'on'
+Hide them when they receive the class 'off'
+Feel free to adjust the defaults to your needs.
+********************************************** */
+
+#closed-captions p {
+	opacity: 0;
+	transition: .05s;
+	position: absolute;
+}
+#closed-captions .on {
+	opacity: 1;
+}
+#closed-captions .off {
+	transition: .2s;
+	opacity: 0;
+}
+.voice1 {
+	font-family: Brenner mono;
+}
+
+.voice2 {
+    font-family: brenner sans serif;
+}
+
+.voice3 {
+    margin-right: 800px;
+    color: grey;
+    font-family: brenner Sans condensed;
+    font-weight: 100;
+}
+
+.audio1 {
+    font-family: brenner display;
+}
+
+.audio2 {
+    font-family: brenner display;
+}
+
+
+
+
+
+/* **********************************************
+Sounds.
+	You can style the whole body, or you can 
+	style anything within the body the moment
+	a sound starts.
+*********************************************  */
+
+.sound1 #video-placeholder {
+    box-shadow: 0 0 100px 50px red;
+    transition-duration: 0.5s;
+}
+
+.sound1 #audio-captions1 {
+    opacity: 1;
+    transition-duration: 0.5s;
+}
+
+.sound2 #video-placeholder {
+	box-shadow: 0 0 0 0;
+	transition-duration: 0.5s;
+  }
+
+  .sound2 #audio-captions1 {
+	opacity: 0;
+	transition-duration: 0.5s;
+  }
+
+  .sound3 #audio-captions1 {
+	opacity: 1;
+	transition-duration: 0.5s;
+  }
+
+
+.sound3 #video-placeholder {
+	box-shadow: 0 0 20px 10px red;
+	transition-duration: 0s;
+  }
+
+  .sound4 #video-placeholder {
+	box-shadow: 0 0 0 0;
+	transition-duration: 0.5s;
+  }
+
+  .sound4 #audio-captions1 {
+	opacity: 0;
+	transition-duration: 0.5s;
+  }
+
+  .sound5 #audio-captions1 {
+	opacity: 1;
+	transition-duration: 0.5s;
+  }
+
+  .sound5 #video-placeholder {
+	box-shadow: 0 0 1000px 15px red;
+	transition-duration: 1.7s;
+  }
+
+  .sound6 #video-placeholder {
+	box-shadow: 0 0 0 0;
+	transition-duration: 0.5s;
+  }
+
+  .sound6 #audio-captions1 {
+	opacity: 0;
+	transition-duration: 0.5s;
+  }
+
+
+.sound8 #video-placeholder {
+    box-shadow: 0 0 100px 50px red;
+    transition-duration: 0.5s;
+}
+
+.sound8 #audio-captions1 {
+    opacity: 1;
+    transition-duration: 0.5s;
+}
+
+.sound9 #video-placeholder {
+	box-shadow: 0 0 0 0;
+	transition-duration: 0.5s;
+  }
+
+  .sound9 #audio-captions1 {
+	opacity: 0;
+	transition-duration: 0.5s;
+  }
+
+
+.sound11 #video-placeholder {
+    box-shadow: 0 0 100px 50px red;
+    transition-duration: 0.5s;
+}
+
+.sound11 #audio-captions1 {
+    opacity: 1;
+    transition-duration: 0.5s;
+}
+
+.sound12 #video-placeholder {
+	box-shadow: 0 0 0 0;
+	transition-duration: 0.5s;
+  }
+
+  .sound12 #audio-captions1 {
+	opacity: 0;
+	transition-duration: 0.5s;
+  }
+
+
+.sound13 #audio-captions2 {
+    opacity: 1;
+    transition-duration: 0.5s;
+}
+
+.sound13 #video-placeholder {
+    animation: shake1 10s;
+}
+/*
+@keyframes shake1 {
+    10% { transform: translate3d(-1px, 0, 0); }
+    20% { transform: translate3d(2px, 0, 0); }
+    30% { transform: translate3d(-4px, 0, 0); }
+    40% { transform: translate3d(4px, 0, 0); }
+    50% { transform: translate3d(-4px, 0, 0); }
+    60% { transform: translate3d(4px, 0, 0); }
+    70% { transform: translate3d(-4px, 0, 0); }
+    80% { transform: translate3d(2px, 0, 0); }
+    90% { transform: translate3d(-1px, 0, 0); }
+}*/
+
+@keyframes shake1 {
+  0% { transform: translate(0px, 10px) ; }
+  10% { transform: translate(-1px, -4px) ; }
+  20% { transform: translate(-4px, 0px) ; }
+  30% { transform: translate(4px, 4px) ; }
+  40% { transform: translate(2px, -4px) ; }
+  50% { transform: translate(-1px, 4px) ; }
+  60% { transform: translate(-4px, 2px) ; }
+  70% { transform: translate(4px, 2px)  }
+  80% { transform: translate(-2px, -4px)  }
+  90% { transform: translate(1px, 6px)  }
+  100% { transform: translate(1px, -4px)  }
+}
+
+.sound14 #video-placeholder {
+    animation: shake2 10s;
+}
+
+/*
+@keyframes shake2 {
+  0% { transform: translate(0px, 10px) ; }
+  10% { transform: translate(-1px, -2px) ; }
+  20% { transform: translate(-4px, 0px) ; }
+  30% { transform: translate(4px, 2px) ; }
+  40% { transform: translate(2px, -2px) ; }
+  50% { transform: translate(-1px, 2px) ; }
+  60% { transform: translate(-4px, 1px) ; }
+  70% { transform: translate(4px, 1px)  }
+  80% { transform: translate(-2px, -2p2)  }
+  90% { transform: translate(1px, 3px)  }
+  100% { transform: translate(1px, -2px)  }
+} */
+
+
+@keyframes shake2 {
+    10% { transform: translate3d(-5px, 0, 0)rotate(0deg) ; }
+    20% { transform: translate3d(7px, 0, 0)rotate(-0.1deg) ; }
+    30% { transform: translate3d(-8px, 0, 0) rotate(0.1deg); }
+    40% { transform: translate3d(8px, 0, 0) rotate(0deg); }
+    50% { transform: translate3d(-8px, 0, 0)rotate(0.1deg) ; }
+    60% { transform: translate3d(8px, 0, 0)rotate(-0.1deg) ; }
+    70% { transform: translate3d(-8px, 0, 0)rotate(0.1deg) ; }
+    80% { transform: translate3d(7px, 0, 0)rotate(0deg) ; }
+    90% { transform: translate3d(-5px, 0, 0)rotate(-0.1deg) ; }
+} 
+
+
+.sound15 #video-placeholder {
+    animation: shake3 10s;
+}
+
+@keyframes shake3 {
+    10% { transform: translate3d(-10px, 0, 0)rotate(0deg) ; }
+    20% { transform: translate3d(20px, 0, 0)rotate(-1deg) ; }
+    30% { transform: translate3d(-40px, 0, 0) rotate(1deg); }
+    40% { transform: translate3d(40px, 0, 0) rotate(0deg); }
+    50% { transform: translate3d(-40px, 0, 0)rotate(1deg) ; }
+    60% { transform: translate3d(40px, 0, 0)rotate(-1deg) ; }
+    70% { transform: translate3d(-40px, 0, 0)rotate(1deg) ; }
+    80% { transform: translate3d(20px, 0, 0)rotate(0deg) ; }
+    90% { transform: translate3d(-10px, 0, 0)rotate(-1deg) ; }
+}
+
+.sound16 #video-placeholder {
+    animation: shake4 10s;
+}
+
+@keyframes shake4 {
+    10% { transform: translate3d(-20px, 0, 0)rotate(0deg) ; }
+    20% { transform: translate3d(30px, 0, 0)rotate(-2deg) ; }
+    30% { transform: translate3d(-50px, 0, 0) rotate(2deg); }
+    40% { transform: translate3d(50px, 0, 0) rotate(0deg); }
+    50% { transform: translate3d(-50px, 0, 0)rotate(2deg) ; }
+    60% { transform: translate3d(50px, 0, 0)rotate(-2deg) ; }
+    70% { transform: translate3d(-50px, 0, 0)rotate(2deg) ; }
+    80% { transform: translate3d(30px, 0, 0)rotate(0deg) ; }
+    90% { transform: translate3d(-50px, 0, 0)rotate(-2deg) ; }
+}
+
+.sound17 #video-placeholder {
+    animation: shake5 7s;
+}
+
+@keyframes shake5 {
+    10% { transform: translate3d(-50px, 0, 0)rotate(0deg) ; }
+    20% { transform: translate3d(50px, 0, 0)rotate(-4deg) ; }
+    30% { transform: translate3d(-70px, 0, 0) rotate(4deg); }
+    40% { transform: translate3d(70px, 0, 0) rotate(0deg); }
+    50% { transform: translate3d(-70px, 0, 0)rotate(4deg) ; }
+    60% { transform: translate3d(70px, 0, 0)rotate(-4deg) ; }
+    70% { transform: translate3d(-70px, 0, 0)rotate(4deg) ; }
+    80% { transform: translate3d(50px, 0, 0)rotate(0deg) ; }
+    90% { transform: translate3d(-10px, 0, 0)rotate(-4deg) ; }
+}
+
+
+  .sound18 #audio-captions2 {
+	opacity: 1;
+	transition-duration: 0.5s;
+  }
+
+.sound18 #video-placeholder {
+    height: 600px;
+    width: 800px;
+    transition-duration: 0.5s;
+    box-shadow: 0 0 10px 20px white;
+    border-radius: 5px;
+}
+
+
+.sound19 #audio-captions2 {
+    opacity: 0;
+	transition-duration: 0.5s;
+}
+
+
+.sound19 #video-placeholder {
+    transition-duration: 0.5s;
+    box-shadow: 0 0 0px 0px white;
+    border-radius: 5px;
+}
+
+
+
+
+/* Font opties
+font-family:
+- Brenner Sans
+- Brenner display
+- Brenner Script
+- brenner Sans condensed
+- Brenner mono
+- Brenner slab
+*/
