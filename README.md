@@ -113,3 +113,6 @@ Feedback Vasilis
 - Maak het hoge piep stuk irritanter
 - Misschien expirimenteren met het alarm
 
+Week 3 - Woensdag 17 & Donderdag 18:
+- Stuk met de piep irritanter gemaakt --> Met behulp van keyframes, translate en enorm veel verschillende procenten, beweegt/stuiterd de video nu met de piep mee.
+- Er voor gezorgd dat hij helemaal ready is voor de eindbeoordeling!
